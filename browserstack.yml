@@ -1,0 +1,26 @@
+userName: ${BROWSERSTACK_USER}
+accessKey: ${BROWSERSTACK_KEY}
+projectName: KATA_Testing
+buildName: Prueba_ValDispositivos
+buildIdentifier: Testing
+
+testContextOptions:
+  skipSessionName: true
+
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+    chromeOptions:
+      args: [ "--incognito" ]
+
+parallelsPerPlatform: 1
+browserstackLocal: false
+
+debug: false
+consoleLogs: info
+networkLogs: true
+geoLocation: CO
+testObservability: false
+browserstackAutomation: true
