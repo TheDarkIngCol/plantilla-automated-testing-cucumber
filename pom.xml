@@ -144,7 +144,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Dependency Plugin (Opcional) -->
             <plugin>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.3.0</version>
